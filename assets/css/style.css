@@ -1,0 +1,116 @@
+
+
+/* ====================================================================
+                                RESET
+=====================================================================*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* ====================================================================
+                                HEADER
+=====================================================================*/
+
+
+body {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+section {
+    background-color: rgb(31, 31, 31);
+    width: 500px;
+    height: 600px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+div a {
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 60px;
+    display: inline-block;
+    margin-block: 1rem;
+}
+
+.active {
+    background-color: rgb(55, 167, 118);
+}
+
+
+
+h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-block: 2rem;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 300;
+}
+
+input {
+    color: white;
+    background-color: rgba(64, 64, 64, 0.327);
+    width: 45%;
+    height: 2.5rem;
+    padding: 1.5rem 1rem;
+    font-size: 1rem;
+    margin-block: 1rem;
+    margin-inline: 0.2rem;
+    color: rgb(169, 169, 169);
+}
+
+input[type="email"] {
+    width: 93%;
+}
+
+input[type="password"] {
+    width: 93%;
+}
+
+input[type="submit"] {
+    width: 93%;
+    background-color: rgb(55, 167, 118);
+    height: fit-content;
+    font-size: 2.5rem;
+    word-spacing: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+
+.forgot {
+    font-size: 0.8rem;
+    text-align: right;
+    color: green;
+    text-decoration: underline;
+    padding-right:1rem;
+}
+
+.forgot__container {
+    text-align: right;
+}
+
+section div a:hover {
+    background-color: rgb(0, 180, 60);
+}
+
+input:focus {
+    outline: none;
+}
